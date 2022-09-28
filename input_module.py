@@ -29,5 +29,3 @@ def input_module():
             break
 
     return num1, operator, num2
-
-## git test

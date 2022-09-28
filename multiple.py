@@ -28,7 +28,7 @@ def input_module():
     
     return num1, operator, num2
 
-### 코드 시작
+#################################코드 시작#########################
 
 data_list = list(input_module())
 
@@ -42,9 +42,13 @@ if calculator == '*':
 elif calculator == '/':
     answer = num_1 / num_2
 
-## test
+##########################계산 끝##################
 
+###출력 test
 print(answer)
+
+## git test
+
 
 
 

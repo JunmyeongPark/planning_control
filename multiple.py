@@ -1,34 +1,3 @@
-### 테스트용으로 긁어왔습니다.
-
-def input_module():
-    operators = ['+', '-', '*', '/']
-    while (True):
-        num1 = input('첫 번째 숫자를 입력하시오 : ')
-        if not num1.isdigit():
-            print('올바른 값을 입력해주세요.\n')
-            continue
-        else:
-            break
-
-    while (True):        
-        operator = input('연산자를 입력하시오 : ')
-        if operator not in operators:
-            print('올바른 값을 입력해주세요.\n')
-            continue
-        else:
-            break
-        
-    while (True):    
-        num2 = input('두 번째 숫자를 입력하시오 : ')
-        if not num2.isdigit():
-            print('올바른 값을 입력해주세요.\n')
-            continue        
-        else:
-            break
-    
-    return num1, operator, num2
-
-#################################코드 시작#########################
 
 data_list = list(input_module())
 
@@ -42,13 +11,7 @@ if calculator == '*':
 elif calculator == '/':
     answer = num_1 / num_2
 
-##########################계산 끝##################
-
-###출력 test
-print(answer)
-
-## git test
-
+# answer에 계산 결과 저장
 
 
 
